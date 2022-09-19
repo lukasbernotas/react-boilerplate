@@ -5,7 +5,7 @@ module.exports = {
     devtool: 'source-map',
     plugins: [
         new webpack.DefinePlugin({
-            'process.env.name': JSON.stringify('React Boilerplace Production'),
+            'process.env.name': JSON.stringify('React Boilerplate Production'),
         }),
     ],
 }
